@@ -1,0 +1,35 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .main-body {
+    margin:0 auto;
+    padding-top: 20px;
+    padding: 1rem;
+    //max-width: 1148px;
+    mat-form-field{
+      width: 100%;
+    }
+    
+  }
+
+  .table {
+    th[align="center"] {
+      ::ng-deep {
+
+        .mat-sort-header-container {
+          justify-content: center;
+        }
+      }
+    }
+   
+    th, td {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+    .table-action {
+
+      display: flex;
+      align-items: center;
+    }
+  }
